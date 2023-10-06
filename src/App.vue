@@ -1,18 +1,16 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
-</template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import AyodaHeader from "./components/AyodaHeader.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
+    AyodaHeader
   }
 }
 </script>
 
-<style>
-</style>
+<template>
+  <div class="is-flex is-flex-direction-column height-full gap-25 p-50">
+    <ayoda-header/>
+  </div>
+</template>
