@@ -29,13 +29,20 @@ export default {
     />
     <icon-section
       title="Why Us"
-      text="Ayoda is the tailor-fit solution for your tailor-fit needs. Each instance of Ayoda is trained on your own inventory data to predict your own needs."
+      text="
+        Ayoda is the tailor-fit solution for your tailor-fit needs. Each instance of Ayoda is trained specifically
+        on your geographic market, with customizations available for any variables that could affect your businesses
+        day to day traffic. If your business has years of sales data we can train our model directly on that. If you're
+        the new place on the block we also offer pre-trained models using data from other restaurants in your area.
+      "
       icon="tie"
       icon-align="left"
     />
     <icon-section
       title="Why Now"
-      text="In the aftermath of covid, many small businesses have closed, or have been on the brink of shutting down. With times as uncertain as ever, every little bit counts, and Ayoda aims to help businesses by saving on potential waste"
+      text="
+        In the aftermath of covid, many small businesses have closed, or have been on the brink of shutting down. With times as uncertain as ever, every little bit counts, and Ayoda aims to help businesses by saving on potential waste
+      "
       icon="money"
       icon-align="right"
     />
