@@ -12,12 +12,19 @@ export default {
 </script>
 
 <template>
-  <div class="is-flex is-flex-direction-column is-align-items-center gap-50 p-75">
+  <div class="is-flex is-flex-direction-column is-align-items-center gap-150 p-75">
     <ayoda-header/>
     <icon-section
-      title="What we Do"
-      text="We solve the problem of inventory waste for small restaurants. We do so using our machine learning model for usage-prediction."
-      icon="chart"
+      title="What We Do"
+      text="
+        Our mission is to reduce food waste in the restaurant industry down to an iota.
+        We're tackling this issue using our custom built machine learning models that take in information,
+        such as sales, weather, and local events data to provide estimates for what foot traffic will look
+        like in different markets at different times. These estimates can make all the difference for restaurants,
+        particularly those just starting out, by giving them clarity on how much inventory to buy ahead of time.
+      "
+      icon="dashboard"
+      icon-height="500px"
       icon-align="right"
     />
     <icon-section
