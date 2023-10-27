@@ -8,21 +8,41 @@
 * {
     font-family: 'Montserrat', sans-serif;
 }
+html {
+    background-color: whitesmoke;
+    color: rgb(0, 0, 0, 0.75);
+    scroll-behavior: smooth;
+}
 
-body {
-    background-image: linear-gradient(45deg, #DB7453, #E17324);
+/* Custom button colors */
+
+.button .is-orange{
+    background-color: #E17324;
     color: white;
+    border: none;
 }
 
 /* Custom classes */
 
-.p-75 {
-    padding: 75px;
+.is-flex-1 {
+    flex: 1;
 }
 
-.p-50 {
-    padding: 50px;
+.has-text-orange {
+    color: #E17324;
 }
+
+.has-background-orange {
+    background-color: #E17324;
+}
+
+.p-75 { padding: 75px; }
+.pt-75 { padding-top: 75px; }
+.pb-75 { padding-bottom: 75px; }
+.pl-75 { padding-left: 75px; }
+.pr-75 { padding-right: 75px; }
+
+.p-50 { padding: 50px; }
 
 .height-full {
     height: 100vh;
@@ -64,29 +84,18 @@ body {
     width: 2px;
 }
 
-.gap-150 {
-    gap: 150px;
+.is-size-8 {
+    font-size: 0.5rem;
 }
 
-.gap-100 {
-    gap: 100px;
-}
-
-.gap-75 {
-    gap: 75px;
-}
-
-.gap-50 {
-    gap: 50px;
-}
-
-.gap-25 {
-    gap: 25px;
-}
-
-.gap-10 {
-    gap: 10px;
-}
+.gap-150 { gap: 150px; }
+.gap-100 { gap: 100px; }
+.gap-75 { gap: 75px; }
+.gap-50 { gap: 50px; }
+.gap-25 { gap: 25px; }
+.gap-20 { gap: 20px; }
+.gap-15 { gap: 15px; }
+.gap-10 { gap: 10px; }
 
 .opacity-85 {
     opacity: 0.85;
