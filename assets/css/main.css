@@ -9,20 +9,36 @@
     font-family: 'Montserrat', sans-serif;
 }
 html {
-    background-color: whitesmoke;
     color: rgb(0, 0, 0, 0.75);
     scroll-behavior: smooth;
 }
 
 /* Custom button colors */
 
-.button .is-orange{
+.is-orange {
+    transition: 0.25s background-color, 0.25s color;
+}
+
+.nav-link {
+    color: rgb(0, 0, 0, 0.75);
+    transition: 0.25s color;
+}
+
+.nav-link:hover {
+    color: #E17324;
+}
+
+.is-orange:hover {
     background-color: #E17324;
+    border-color: transparent;
     color: white;
-    border: none;
 }
 
 /* Custom classes */
+
+.line-height-2{
+    line-height: 2.0;
+}
 
 .is-flex-1 {
     flex: 1;
@@ -48,6 +64,12 @@ html {
 .pl-50 { padding-left: 50px; }
 .pr-50 { padding-right: 50px; }
 
+.p-25 { padding: 25px; }
+.pt-25 { padding-top: 25px; }
+.pb-25 { padding-bottom: 25px; }
+.pl-25 { padding-left: 25px; }
+.pr-25 { padding-right: 25px; }
+
 .height-full {
     height: 100vh;
 }
@@ -68,25 +90,13 @@ html {
     height: 50px;
 }
 
-.width-80vw{
-    width: 80vw;
-}
-
-.width-70vw{
-    width: 70vw;
-}
-
-.width-60vw{
-    width: 60vw;
-}
-
-.width-500 {
-    width: 500px;
-}
-
-.width-2 {
-    width: 2px;
-}
+.min-width-500 { min-width: 500px; }
+.width-80vw{ width: 80vw; }
+.width-70vw{ width: 70vw; }
+.width-60vw{ width: 60vw; }
+.width-500 { width: 500px; }
+.width-250 { width: 250px; }
+.width-2 { width: 2px; }
 
 .is-size-8 {
     font-size: 0.5rem;

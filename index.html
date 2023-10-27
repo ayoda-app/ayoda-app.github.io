@@ -4,41 +4,59 @@
     <link rel="shortcut icon" href="./assets/img/logo/png/Logo.png">
     <meta name="viewport" content= "width=device-width, initial-scale=1.0"> 
 </head>
-<body>
-    <div class="is-flex is-flex-direction-column gap-100">
+<body class="has-background-orange">
+    <div class="is-flex is-flex-direction-column">
+
+        <main class="is-flex is-flex-direction-column has-background-white-bis height-full">
+
+            <header class="is-flex is-align-self-stretch is-flex-direction-row is-justify-content-space-between is-align-items-center p-75 pt-50">
+                <section class="is-flex is-flex-direction-row is-align-items-center gap-15 is-flex-1">
+                    <img src="./assets/img/logo/svg/Text-Logo-No-Background-Black.svg" class="p-0 height-50" />
+                </section>
         
-        <header class="is-flex is-align-self-stretch is-flex-direction-row is-justify-content-space-between is-align-items-center p-75 pt-50">
-            <section class="is-flex is-flex-direction-row is-align-items-center gap-15 is-flex-1">
-                <img src="./assets/img/logo/svg/Text-Logo-No-Background-Black.svg" class="p-0 height-50" />
+                <nav class="is-flex is-flex-1 is-flex-direction-row is-justify-content-space-around">
+                    <a href="#what-we-do" class="nav-link">What we do</a>
+                    <a href="#why-us" class="nav-link">Why us</a>
+                    <a href="#calculate-savings" class="nav-link">Calculate savings</a>
+                </nav>
+        
+                <section class="is-flex is-flex-1 is-flex-direction-column is-align-items-flex-end">
+                    <button class="button is-medium is-orange is-rounded" >
+                        Contact us
+                    </button>
+                </section>
+            </header>
+        
+            <section class="is-flex is-flex-direction-column is-flex-1 is-justify-content-center p-75 pt-0">
+                <h1 class="is-size-1 has-text-centered">
+                    Reducing <span class="has-text-orange">Waste</span>
+                </h1>
+    
+                <h2 class="is-size-2 has-text-centered">
+                    down to
+                </h2>
+    
+                <h3 class="is-size-3 has-text-centered">
+                    an <span class="has-text-orange">iota</span>
+                </h3>
+                
+                <div class="is-flex is-flex-direction-column is-align-items-center pt-75">
+                    <button class="button is-medium is-orange is-rounded" >
+                        Try the demo
+                    </button>
+                </div>
             </section>
+        </main>
+        
     
-            <nav class="is-flex is-flex-1 is-flex-direction-row is-justify-content-space-around">
-                <a href="#what-we-do" class="has-text-black">What we do</a>
-                <a href="#why-us" class="has-text-black">Why us</a>
-                <a href="#calculate-savings" class="has-text-black">Calculate savings</a>
-            </nav>
-    
-            <section class="is-flex is-flex-1 is-flex-direction-column is-align-items-flex-end">
-                <button class="button is-medium is-orange is-rounded" >
-                    Try the demo
-                </button>
-            </section>
-        </header>
-    
-        <section class="is-flex is-flex-direction-column pl-75 pr-75">
-            <h1 class="is-size-1">Reducing Waste</h1>
-            <h2 class="is-size-2">down to</h2>
-            <h3 class="is-size-3">an iota</h3>
-        </section>
-    
-        <section id="what-we-do" class="is-flex is-align-items-center gap-100 pl-75 pr-75">
+        <section id="what-we-do" class="is-flex is-align-items-center has-background-white gap-100 p-75">
             <div class="is-flex is-flex-direction-column gap-15">
             <h2 class="title has-text-orange">
                 What We Do
             </h2>
-            <p class="is-size-6">
+            <p class="is-size-6 line-height-2">
                 Our mission is to reduce food waste in the restaurant industry down to an iota.
-                We're tackling this issue using our custom built machine learning models that take in information,
+                We're tackling this issue using our custom built machine learning models that take in various sorts of information,
                 such as sales, weather, and local events data to provide estimates for what foot traffic will look
                 like in different markets at different times. These estimates can make all the difference for restaurants,
                 particularly those just starting out, by giving them clarity on how much inventory to buy ahead of time.
@@ -47,13 +65,13 @@
             <img src="./assets/img/icons/dashboard.svg" style="height: 350px;" />
         </section>
     
-        <section id="why-us" class="is-flex is-align-items-center gap-100 pl-75 pr-75">
+        <section id="why-us" class="is-flex is-align-items-center has-background-white-bis gap-100 p-75">
             <img src="./assets/img/icons/tie.svg" style="height: 100px;" />
             <div class="is-flex is-flex-direction-column gap-15">
             <h2 class="title has-text-orange">
                 Why Us
             </h2>
-            <p class="is-size-6">
+            <p class="is-size-6 line-height-2">
                 Ayoda is the tailor-fit solution for your tailor-fit needs. Each instance of Ayoda is trained specifically
                 on your geographic market, with customizations available for any variables that could affect your businesses
                 day to day traffic. If your business has years of sales data we can train our model directly on that. If you're
@@ -64,11 +82,53 @@
     
         <section
             id="calculate-savings"
-            class="is-flex is-align-items-center gap-100 has-background-light"
+            class="is-flex is-flex-direction-column is-align-items-center has-background-white gap-50 p-75"
         >
-            <h2 class="title has-text-orange">
-            How much are we talking?
-            </h2>
+            <h2 class="title has-text-orange">How much are we talking?</h2>
+            <div class="is-flex is-flex-direction-row gap-50">
+                <div class="box min-width-500 is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
+                    <h1 class="title is-size-4 has-text-orange m-0">Your Info</h1>
+                    <p>Coming soon</p>
+                    <!-- <div>
+                        <h2 class="subtitle m-0 mb-2">Value 1</h2>
+                        <input class="input" type="text" placeholder="value 1">
+                    </div>
+                    <div>
+                        <h2 class="subtitle m-0 mb-2">Value 2</h2>
+                        <input class="input" type="text" placeholder="value 2">
+                    </div>
+                    <div>
+                        <h2 class="subtitle m-0 mb-2">Value 3</h2>
+                        <input class="input" type="text" placeholder="value 3">
+                    </div>
+                    <button class="button">Calculate</button> -->
+                </div>
+                
+                <div class="box min-width-500 is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
+                    <h1 class="title is-size-4 has-text-orange m-0">Estimate Savings</h1>
+                    <p>Coming soon</p>
+                    <!-- <div>
+                        <h2 class="subtitle m-0 mb-2">Savings metric #1</h2>
+                        <label>431,000</label>
+                    </div>
+                    <div>
+                        <h2 class="subtitle m-0 mb-2">Savings metric #2</h2>
+                        <label>43%</label>
+                    </div>
+                    <div>
+                        <h2 class="subtitle m-0 mb-2">Savings metric #3</h2>
+                        <label>1/4</label>
+                    </div> -->
+                </div>
+            </div>
         </section>
+
+        <footer class="is-flex is-flex-direction-column gap-25 p-75">
+            <h2 class="subtitle has-text-white m-0">&copy; Ayoda 2023</h2>
+            <div class="is-flex is-flex-direction-row gap-15">
+                <input class="input width-250 is-align-self-flex-start" type="text" placeholder="email">
+                <button class="button is-white">Contact us</button>
+            </div>
+        </footer>
     </div>
 </body>
