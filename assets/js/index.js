@@ -54,8 +54,13 @@ function renderDonut(before, after){
 }
 
 function formatNumber(x) {
-    let y = parseInt(x);
-    return y.toFixed(2).toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    const num = parseFloat(x)
+    const numWith4SF = num.toFixed(2);
+    console.log(numWith4SF);
+    const formattedNum = numWith4SF.replace(/(\d)(?=(\d{3})+(\.\d+)?$)/g, "$1,");
+
+  return formattedNum;
+
 }
 
 function calculateSavings(){
