@@ -84,13 +84,12 @@
                 </div>
             </section>
         
-            <!--<section
-                id="calculate-savings"
-                class="is-flex is-flex-direction-column is-align-items-center has-background-white gap-50 p-75"
+            <section
+                class="is-flex is-flex-direction-column is-align-items-center has-background-white gap-50 p-75 p-50-mobile"
             >
-                <h2 class="title has-text-orange">How much are we talking?</h2>
-                <div class="columns gap-50">
-                    <div class="column box is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
+                <h2 class="title has-text-orange has-text-centered-mobile">How much are we talking?</h2>
+                <div class="columns box gap-10">
+                    <div class="column is-two-fifths is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
                         <h1 class="title is-size-4 has-text-orange m-0">Your Info</h1>
                         <div>
                             <h2 class="subtitle m-0 mb-4">Last Month's Revenue</h2>
@@ -121,36 +120,35 @@
                         <button class="button" onclick="calculateSavings()">Calculate</button>
                     </div>
                     
-                    <div class="column box min-width-500 is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
-                        <div class="is-flex is-flex-direction-row gap-50 is-flex-1">
+                    <div class="column is-three-fifths is-flex is-flex-direction-column p-25 pr-50 pl-50 gap-25">
+                        <div class="is-flex is-flex-direction-row gap-25 is-flex-1">
                             <div class="is-flex is-flex-direction-column gap-15">
-                                <h2 class="title m-0">Your Current State</h2>
+                                <h2 class="title is-size-5-mobile">Your Current State</h2>
                                 <h2>Current COGS</h2>
-                                <label id="current-cogs"></label>
+                                <label id="current-cogs">-</label>
                                 <h2>Current Profit</h2>
-                                <label id="current-profit"></label>
+                                <label id="current-profit">-</label>
                             </div>
                             <div class="is-flex is-flex-direction-column gap-15">
-                                <h2 class="title has-text-orange m-0">The Ayoda Impact</h2>
-                                <h2>Current COGS</h2>
-                                <label id="ayoda-cogs"></label>
-                                <h2>Current Profit</h2>
-                                <label id="ayoda-profit"></label>
+                                <h2 class="title is-size-5-mobile has-text-orange">The Ayoda Impact</h2>
+                                <h2>New COGS</h2>
+                                <label id="ayoda-cogs">-</label>
+                                <h2>New Profit</h2>
+                                <label id="ayoda-profit">-</label>
                             </div>
                         </div>
-                        <div class="is-flex is-flex-direction-column is-align-items-center gap-15">
+                        <div class="is-flex is-flex-direction-column is-align-items-center gap-25">
                             <h2 class="subtitle m-0 mb-2">Total Annual Savings</h2>
-                            <label id="savings-output" class="title"></label>
-                            <br>
-                            <label id="savings-percentage-output" class="title"></label>
+                            <label id="savings-output" class="title">-</label>
+                            <!-- <label id="savings-percentage-output" class="title"></label> -->
                         </div>
                     </div>
                 </div>
-            </section>-->
+            </section>
     
             <footer class="is-flex is-flex-direction-column gap-25 p-75">
-                <!--<h2 class="subtitle has-text-white m-0">&copy; Ayoda 2023</h2>
-                <div class="is-flex is-flex-direction-row gap-15">
+                <h2 class="subtitle has-text-white m-0">&copy; Ayoda 2023</h2>
+                <!--<div class="is-flex is-flex-direction-row gap-15">
                     <input class="input width-250 is-align-self-flex-start" type="text" placeholder="email">
                     <button class="button is-white">Contact us</button>
                 </div>-->
