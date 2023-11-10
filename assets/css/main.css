@@ -95,3 +95,29 @@ html {
 .opacity-75 { opacity: 0.75; }
 .opacity-70 { opacity: 0.7; }
 .opacity-50 { opacity: 0.5; }
+
+/* Mobile styling */
+
+@media only screen and (max-width: 768px) {
+    .has-text-centered-mobile{
+        text-align: center;
+    }
+
+    .p-75-mobile { padding: 75px; }
+    .pt-75-mobile { padding-top: 75px; }
+    .pb-75-mobile { padding-bottom: 75px; }
+    .pl-75-mobile { padding-left: 75px; }
+    .pr-75-mobile { padding-right: 75px; }
+
+    .p-50-mobile { padding: 50px; }
+    .pt-50-mobile { padding-top: 50px; }
+    .pb-50-mobile { padding-bottom: 50px; }
+    .pl-50-mobile { padding-left: 50px; }
+    .pr-50-mobile { padding-right: 50px; }
+
+    .p-25-mobile { padding: 25px; }
+    .pt-25-mobile { padding-top: 25px; }
+    .pb-25-mobile { padding-bottom: 25px; }
+    .pl-25-mobile { padding-left: 25px; }
+    .pr-25-mobile { padding-right: 25px; }
+}
